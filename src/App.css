@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --text-dark: #EEE7E7;
+  --background-dark: #131313;
+  --primary-dark: #F7B36E;
+  --secondary-dark: #F9D2AB;
+  --accent-dark: #6166F6;
+
+  --text-light: #131313;
+  --background-light: #EEE7E7;
+  --primary-light: #F7B36E;
+  --secondary-light: #FFFCFA;
+  --accent-light: #0A10BA;
+
+  --tw-scale-y: 1;
+  --tw-scale-x: 1;
+}
+
+::selection {
+  background-color: var(--accent-dark);
+}
+
+* {
+  left: 0;
+  top: 0;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Satoshi,sans-serif;
+  font-weight: 300;
+
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+
+  overflow-x: hidden;
+}

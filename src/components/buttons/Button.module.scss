@@ -1,0 +1,17 @@
+.button_link {
+  z-index: 1;
+  transition: all .2s;
+  position: relative;
+  display: block;
+
+  text-align: center;
+
+  border: 1px var(--primary-dark) solid;
+  border-radius: 10px;
+}
+
+.button_link:hover {
+  text-decoration: none;
+  background-color: var(--primary-dark);
+  color: var(--text-light)
+}
