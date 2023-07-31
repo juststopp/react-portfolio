@@ -94,7 +94,7 @@ function Home() {
             <section className={styles.languagesSection} id="languages">
                 <div className={styles.languagesSubSection}>
                     <div className={styles.languagesCaroussel}>
-                        <span className={styles.languagesAnimation}>Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python ·</span>
+                        <span className={styles.languagesAnimation}>Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS · ReactJS · NodeJS · Java · Python · Javascript · HTML · CSS</span>
                     </div>
                 </div>
             </section>
