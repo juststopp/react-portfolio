@@ -22,16 +22,15 @@
         display: flex;
         position: absolute;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
 
-        grid-area: 1 / 1 / 2 / 2;
+        grid-area: 1 / 1 / 2;
 
         width: 100%;
-
-        left: 5%;
-        top: 40%;
+        top: 20%;
 
         @media (max-width: 760px) {
-            left: 3%;
             top: 20%;
         }
 
@@ -40,6 +39,9 @@
             margin-top: 2rem;
             font-size: 20px;
             line-height: 150%;
+            width: 60%;
+
+            text-align: center;
 
             @media (max-width: 760px) {
                 width: 90%;
@@ -49,7 +51,7 @@
 
     & .gridElementRight {
         height: 100%;
-        grid-area: 1 / 2 / 3 / 3;
+        grid-area: 1 / 2;
     }
 
     @media (max-width: 760px) {
@@ -74,7 +76,7 @@ h1.mainTitle {
 
 span.importantMessage {
     background-position-y: -0%;
-    background-image: linear-gradient(180deg, transparent 50%, var(--text-dark) 50%) !important;
+    background-image: linear-gradient(180deg, transparent 50%, var(--accent-dark) 50%) !important;
     transition: all 0.1s ease;
     background-size: 2px;
     background-size: auto 190%;
@@ -330,7 +332,7 @@ section {
                             display: block;
                             border-radius: 9999px;
                             opacity: 0;
-                            background: conic-gradient(from 180deg at 50% 50%, #ffc8752c 0deg, #ffeaca 10deg, #ffc875 25deg, #a787ff 112.5deg, #66e3ff 203.75deg, #d2f7ff 213.75deg, #66e3ff 228.75deg, rgba(42, 138, 246, 0) 1turn);
+                            background: conic-gradient(from 180deg at 50% 50%, var(--accent-dark) 10deg, var(--background-dark) 1turn);
                             width: calc(100% * 2);
                             padding-bottom: calc(100% * 2);
                             transform: translate(-50%, -50%);
