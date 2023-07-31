@@ -52,6 +52,10 @@
     & .gridElementRight {
         height: 100%;
         grid-area: 1 / 2;
+
+        @media (max-width: 760px) {
+            overflow: hidden;
+        }
     }
 
     @media (max-width: 760px) {
