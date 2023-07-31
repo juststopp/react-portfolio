@@ -6,6 +6,7 @@ import html from '../../assets/html.png';
 import reactjs from '../../assets/react.png';
 import java from '../../assets/java.png';
 import python from '../../assets/python.png';
+import lines from '../../assets/lines.png';
 
 import { useMediaQuery } from 'react-responsive';
 
@@ -77,7 +78,7 @@ function Home() {
                         <Button name="Contact Me" link="/contact" width={isOnPhone ? '30vw' : '20vw'} padding={'1rem'} />
                     </div>
                     <div className={styles.gridElementRight}>
-                        
+                        <img src={lines} />
                     </div>
                 </div>
                 
