@@ -81,6 +81,8 @@ function Home() {
                         <img src={lines} />
                     </div>
                 </div>
+
+                { isOnPhone ? <Spacer space={'5rem'}/> : ''}
                 
                 <div className={styles.mouseSvgContainer}>
                     <a href="#languages">
@@ -91,6 +93,8 @@ function Home() {
                     </a>
                 </div>
             </div>
+
+            { isOnPhone ? <Spacer space={'3rem'}/> : ''}
 
             <section className={styles.languagesSection} id="languages">
                 <div className={styles.languagesSubSection}>

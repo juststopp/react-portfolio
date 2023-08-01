@@ -4,8 +4,16 @@
     display: flex;
     justify-content: space-around;
 
+    @media (max-width: 760px) {
+        flex-direction: column;
+    }
+
     & .leftFooter, .rightFooter {
         display: block;
+
+        @media (max-width: 760px) {
+            margin-top: 1rem;
+        }
     }
 
     & p {
