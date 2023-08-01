@@ -11,7 +11,7 @@ function Header() {
                 </div>
                 <ul>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact" className={styles.linkButton}>Contact</a></li>
+                    <li><a href="mailto:m.beuagendre@icloud.com" className={styles.linkButton}>Contact</a></li>
                 </ul>
             </nav>
         </header>
