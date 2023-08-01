@@ -75,7 +75,7 @@ function Home() {
                         </p>
 
                         <Spacer space={'3.5rem'}/>
-                        <Button name="Contact Me" link="/contact" width={isOnPhone ? '30vw' : '20vw'} padding={'1rem'} />
+                        <Button name="Contact Me" link="mailto:m.beaugendre@icloud.com" width={isOnPhone ? '30vw' : '20vw'} padding={'1rem'} />
                     </div>
                     <div className={styles.gridElementRight}>
                         <img src={lines} />
